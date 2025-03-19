@@ -8,4 +8,14 @@ public class Hello {
 		System.out.println("안녕하세요");
 	}
 	
+	public Hello() {
+		this("인녕하세요");
+	}
+	
+	public Hello(String message) {
+		this.message = message;
+	}
+	
+	
+	
 }
